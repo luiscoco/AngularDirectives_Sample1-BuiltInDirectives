@@ -4,7 +4,8 @@ In Angular, built-in directives are pre-defined instructions that can be applied
 
 Here are some commonly used built-in directives in Angular:
 
-*ngIf: This directive is used to conditionally render elements in the DOM based on a given expression. It adds or removes the element from the DOM based on the truthiness of the expression.
+## *ngIf
+This directive is used to conditionally render elements in the DOM based on a given expression. It adds or removes the element from the DOM based on the truthiness of the expression.
 
 ```typescript
 <div *ngIf="isLoggedin">User is logged in</div>
@@ -12,7 +13,8 @@ Here are some commonly used built-in directives in Angular:
 
 In this example, the div element will only be displayed if the isLoggedin property evaluates to true.
 
-*ngFor: This directive is used for iterating over a collection and rendering elements dynamically. It allows you to repeat a portion of HTML markup for each item in an array or an iterable object.
+## *ngFor
+This directive is used for iterating over a collection and rendering elements dynamically. It allows you to repeat a portion of HTML markup for each item in an array or an iterable object.
 
 ```typescript
 <ul>
@@ -22,7 +24,8 @@ In this example, the div element will only be displayed if the isLoggedin proper
 
 In this example, each item in the items array will be rendered as a list item (li).
 
-*ngSwitch: This directive is used for conditionally displaying content based on multiple cases. It works similar to a switch-case statement.
+## *ngSwitch
+This directive is used for conditionally displaying content based on multiple cases. It works similar to a switch-case statement.
 
 ```typescript
 <div [ngSwitch]="color">
@@ -35,7 +38,8 @@ In this example, each item in the items array will be rendered as a list item (l
   
 In this example, based on the value of the color variable, the corresponding div block will be displayed.
 
-[ngClass]: This directive is used to dynamically apply CSS classes to an element based on a condition.
+## [ngClass]
+This directive is used to dynamically apply CSS classes to an element based on a condition.
 
 ```typescript
 <div [ngClass]="{ 'active': isActive, 'disabled': isDisabled }">Some content</div>
