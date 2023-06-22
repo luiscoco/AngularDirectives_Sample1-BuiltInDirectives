@@ -2,6 +2,8 @@
 
 https://angular.io/guide/built-in-directives
 
+https://stackblitz.com/~/github.com/luiscoco/AngularDirectives_Sample1-BuiltInDirectives
+
 In Angular, built-in directives are pre-defined instructions that can be applied to HTML elements to manipulate their behavior or appearance. These directives are provided by Angular itself and are available for use without requiring any additional configuration or imports.
 
 Here are some commonly used built-in directives in Angular:
